@@ -25,12 +25,12 @@ def user_input_features():
 
 
   user_input_data = {'anio': anio,
-                     'codificacion_mes': codificacion_mes,
                      'diaSemana': diaSemana,
+                     'codificacion_linea': codificacion_linea,
+                     'codificacion_estacion': codificacion_estacion,
+                     'codificacion_mes': codificacion_mes}
                      #'esFestivo': esFestivo,
                      #'puntoInteres': puntoInteres,
-                     'codificacion_linea': codificacion_linea,
-                     'codificacion_estacion': codificacion_estacion}
                      
   features = pd.DataFrame(user_input_data, index=[0])
 
