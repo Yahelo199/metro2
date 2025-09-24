@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 st.write(''' Predicción de afluencia en el Sistema de Transporte Colectivo Metro de la Ciudad de México ''')
-st.image("metroo.png", caption="Afluencia en el STC Metro.")
+st.image("metroo.jpg", caption="Afluencia en el STC Metro.")
 st.image("t1.jpg", caption="Afluencia en el STC Metro.")
 st.image("t2.jpg", caption="Afluencia en el STC Metro.")
 #st.imagen("tabladia", caption="Conversión a númerico del día de la semana")
